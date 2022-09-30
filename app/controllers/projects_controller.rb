@@ -30,7 +30,7 @@ class ProjectsController < ApplicationController
     private
 
     def project_params
-        params.permit(:project_name, :project_languages, :project_description, :project_cover)
+        params.permit(:project_name, :project_languages, :project_description, :project_cover,:project_images, :id, :project)
     end
 
 
